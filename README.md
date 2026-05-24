@@ -1,4 +1,3 @@
-````md
 # 🩸 Blood Cancer Detection System using CNN (EfficientNet)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -63,15 +62,15 @@ Prediction Generation
             │
             ▼
 Frontend Displays Result
-````
+```
 
 ---
 
 # 🧠 Deep Learning Models Used
 
-| Model          | Purpose                         |
-| -------------- | ------------------------------- |
-| CNN            | Feature Extraction              |
+| Model | Purpose |
+|------|------|
+| CNN | Feature Extraction |
 | EfficientNetB0 | Lightweight High Accuracy Model |
 
 ---
@@ -80,36 +79,36 @@ Frontend Displays Result
 
 ## Backend
 
-* Django
-* Django REST Framework
+- Django
+- Django REST Framework
 
 ## Machine Learning
 
-* TensorFlow
-* Keras
-* CNN
-* EfficientNetB0
+- TensorFlow
+- Keras
+- CNN
+- EfficientNetB0
 
 ## Frontend
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
 ## Image Processing
 
-* OpenCV
-* NumPy
-* Pillow
+- OpenCV
+- NumPy
+- Pillow
 
 ## Data Visualization
 
-* Matplotlib
-* Seaborn
+- Matplotlib
+- Seaborn
 
 ## Database
 
-* SQLite3
+- SQLite3
 
 ---
 
@@ -119,32 +118,8 @@ Frontend Displays Result
 BloodDetect_Project/
 │
 ├── backend/
-│   ├── APIs/
-│   │   ├── views.py
-│   │   ├── urls.py
-│   │   └── apps.py
-│   │
-│   ├── BloodDetect/
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   ├── wsgi.py
-│   │   └── asgi.py
-│   │
-│   └── manage.py
-│
 ├── frontend/
-│   ├── templates/
-│   │   └── index.html
-│   │
-│   └── static/
-│       ├── style.css
-│       └── script.js
-│
 ├── model/
-│   ├── testing.py
-│   ├── model_info.txt
-│   └── FinalQ_efficientnet_model.keras
-│
 ├── requirements.txt
 └── README.md
 ```
@@ -153,27 +128,19 @@ BloodDetect_Project/
 
 # ⚙️ Installation Guide
 
-## 1️⃣ Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/ankith179/Blood-Cancer-Detection-.git
-
-cd Blood-Cancer-Detection-
 ```
 
----
-
-## 2️⃣ Create Virtual Environment
-
-### Windows
+## Create Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
----
-
-## 3️⃣ Activate Environment
+## Activate Environment
 
 ### Windows
 
@@ -201,9 +168,7 @@ pip install -r requirements.txt
 
 ```bash
 python manage.py makemigrations
-
 python manage.py migrate
-
 python manage.py runserver
 ```
 
@@ -227,16 +192,6 @@ POST /api/predict/
 
 ---
 
-# 📤 Request Format
-
-Upload image using:
-
-```text
-multipart/form-data
-```
-
----
-
 # 📥 Response Example
 
 ```json
@@ -250,96 +205,30 @@ multipart/form-data
 
 # 📊 Performance Metrics
 
-The model evaluation includes:
-
-* Accuracy
-* Precision
-* Recall
-* F1 Score
-* Confusion Matrix
-
----
-
-# 📷 Screenshots
-
-## Home Page
-
-(Add Screenshot Here)
-
-## Prediction Result
-
-(Add Screenshot Here)
-
-## Accuracy Graph
-
-(Add Screenshot Here)
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
 
 ---
 
 # 🚀 Deployment Platforms
 
-This project can be deployed on:
-
-* Render
-* Railway
-* Vercel
-* Docker
-* AWS EC2
-
----
-
-# 🔮 Future Enhancements
-
-* Multi-Class Blood Cancer Detection
-* JWT Authentication
-* Docker Containerization
-* Cloud Deployment
-* Explainable AI (Grad-CAM)
-* Mobile Application
+- Render
+- Railway
+- Vercel
+- Docker
+- AWS EC2
 
 ---
 
 # 👨‍💻 Authors
 
-* Ankith Singh
-
----
-
-# 🎓 Academic Information
-
-### Project Title
-
-Enhanced Blood Cancer Detection using CNN (EfficientNet Model)
-
-### Institution
-
-CMR Engineering College
-
-### Department
-
-Computer Science Engineering (Data Science)
-
-### Academic Year
-
-2024-2025
-
----
-
-# 🙏 Acknowledgements
-
-Special thanks to:
-
-* TensorFlow
-* Keras
-* Django Community
-* OpenCV
-* Scikit-learn
+- Ankith Singh
 
 ---
 
 # 📄 License
 
 This project is developed for academic and research purposes only.
-
-```
-```
